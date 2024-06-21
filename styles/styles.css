@@ -1,0 +1,50 @@
+main {
+    max-width: 840px;
+}
+
+/*menu*/
+nav a {
+    color: black;
+    padding: 10px;
+    display: block;
+    border: 1px solid gray;
+    background-color: #eee;
+    box-shadow: 50px gray;
+}
+
+h1 {
+    color:  #333;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(rgb(3, 11, 74), rgb(13, 100, 13), rgb(113, 91, 10), alpha);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+/*Edition imagen colombia2.jpg*/
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #eee;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
+}
+
+p { padding: 0;}
+
+/*black Linea*/
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
