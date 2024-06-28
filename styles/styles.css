@@ -15,7 +15,7 @@ nav a {
     display: block;
     border: 1px solid rgb(255, 255, 255);
     background-color: #ac9633c3;
-    box-shadow: 50px rgb(253, 249, 249);
+    box-shadow: 50px  #eee;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(rgb(3, 11, 74), rgb(13, 100, 13), rgb(113, 91, 10), alpha);
+    border: 1px solid, rgb(113, 91, 10);
     padding: 1rem;
     background-color: #635d11;
     color: #333;
