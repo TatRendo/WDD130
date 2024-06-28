@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Class Selectors */
+
 main {
     max-width: 840px;
 }
@@ -15,7 +17,7 @@ nav a {
     display: block;
     border: 1px solid rgb(255, 255, 255);
     background-color: #ac9633c3;
-    box-shadow: 50px  #eee;
+    box-shadow: 50px;
 }
 
 h1 {
@@ -25,7 +27,7 @@ h1 {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid, rgb(113, 91, 10);
+    border: 1px solid rgb(102, 83, 12);
     padding: 1rem;
     background-color: #635d11;
     color: #333;
