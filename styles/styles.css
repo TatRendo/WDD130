@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*class selectors*/
+
 main {
     max-width: 840px;
 }
@@ -44,13 +52,6 @@ aside h2{
     text-shadow: 0 0 5px rgb(234, 228, 228);
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-
 p { padding: 0;}
 
 /*black Linea*/
@@ -61,7 +62,6 @@ footer {
     text-align: center;
 }
 
-/*class selectors*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -69,6 +69,7 @@ footer {
     background-color: #ddd;
     color: #000;
 }
+
 aside {
     width: 20em;
     text-align: center;
