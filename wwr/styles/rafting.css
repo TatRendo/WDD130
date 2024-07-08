@@ -87,11 +87,11 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 54%;
     transform: translate(-50%, -50%);
-    background: rgba(23, 21, 34, 0.5);
-    padding: 50px;
-    width: 87%;
+    background: rgba(13, 12, 19, 0.5);
+    padding: 20px;
+    width: 99%;
     text-shadow: 0 0 10px rgb(234, 228, 228);
     margin: 0;
     font-size: 4em;
@@ -129,6 +129,7 @@ nav a:hover {
 
 /* History */
 
+
 section h2 {
     position: relative;
     left: 64%;
@@ -146,10 +147,10 @@ section h2 {
 .content {
     text-align: center;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;   
     flex-wrap: wrap;
+    left: 25%;
+    position: relative;
 }
 
 .text {
@@ -157,6 +158,7 @@ section h2 {
     text-align: left;
     margin: 0 10px;
 }
+
 
 .history.center {
     flex: 1;
@@ -166,7 +168,15 @@ section h2 {
 /* Adventure ... */
 
 
-
+.columns img {
+   
+    height: auto;
+    max-width: 250px;
+    
+    justify-content: space-between;
+    left: 15%;
+    position: relative;
+}
 
 
 
@@ -186,10 +196,20 @@ section h2 {
 }
 
 footer {
-    text-align: center;
+    
     padding: 5px;
-    background: #333;
+    background: var(--nav-hover-link-color);
     color: white;
     bottom: 0;
-    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 170%;
+}
+
+footer p {
+    margin: 30px auto;
+    position: relative;
+    left: 20%;
 }
